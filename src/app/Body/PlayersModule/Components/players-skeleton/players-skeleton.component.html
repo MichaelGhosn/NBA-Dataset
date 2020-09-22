@@ -1,0 +1,7 @@
+<div *ngIf="players" style="width: 90vw">
+  <app-player-card *ngFor="let player of players.data" [infos]="player" style="width: 20%;margin-left: 4%;margin-right: auto;display: inline-block;"></app-player-card>
+</div>
+
+<div *ngIf="!players">
+  Loading...
+</div>

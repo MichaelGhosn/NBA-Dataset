@@ -1,0 +1,25 @@
+.containerClass {
+  position: relative;
+  height: 100%;
+}
+
+.matSidenavClass {
+  background-color: transparent;
+  max-width: 10vw;
+}
+
+.sidenav-content {
+  display: flex;
+  height: 100%;
+}
+
+
+mat-list-item {
+  margin-bottom: 1px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lightgrey;
+  }
+}
+

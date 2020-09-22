@@ -1,0 +1,11 @@
+{
+  "title": {
+    "value": "NBA-Dataset"
+  },
+  "Main": "Main",
+  "Players": "Players",
+  "Teams": "Teams",
+  "Games": "Games",
+  "Stats": "Stats",
+  "Season Average": "Season Average"
+}

@@ -1,0 +1,4 @@
+<button mat-button [matMenuTriggerFor]="languageMenu" >{{(translate.currentLang || translate.getBrowserLang()).toLocaleUpperCase() }}</button>
+<mat-menu #languageMenu="matMenu">
+  <button mat-menu-item *ngFor="let lang of SupportedLanguages" (click)="ChangeLanguage(lang.language)">{{lang.language.toLocaleUpperCase()}}</button>
+</mat-menu>

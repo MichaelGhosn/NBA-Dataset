@@ -1,0 +1,11 @@
+{
+  "title": {
+    "value": "Ensemble de données NBA"
+  },
+  "Main": "Principale",
+  "Players": "Joueurs",
+  "Teams": "Equipes",
+  "Games": "Matches",
+  "Stats": "Statistiques",
+  "Season Average": "Moyennes de la saison"
+}

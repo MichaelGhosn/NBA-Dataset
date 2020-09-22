@@ -1,0 +1,10 @@
+<mat-card>
+  <div *ngFor="let key of GetKeys(infos)" [ngSwitch]="GetTypeOfItem(infos[key])">
+    <span *ngSwitchCase="'object'">
+      <app-player-card [infos]="infos[key]"></app-player-card>
+    </span>
+    <span *ngSwitchDefault>
+      {{key}} &nbsp; {{infos[key]}}
+    </span>
+  </div>
+</mat-card>
